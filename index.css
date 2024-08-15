@@ -1,0 +1,48 @@
+body{
+    background-image: url(images/pattern-background-desktop.svg), url(images/pattern-background-desktop.svg), url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat:no-repeat;
+}
+*{
+  font-family: "Outfit", system-ui;
+}
+
+
+main{
+    overflow: hidden;
+    width:50%;
+    background-color: white;
+}
+
+p{
+    color:hsl(224, 23%, 55%);
+}
+
+.my-custom{
+    color: hsl(245, 75%, 52%) !important;
+    font-weight: 800 !important;
+}
+
+.my-custom-btn{
+    background-color: hsl(245, 75%, 52%);
+}
+
+.d-flex div p{
+    margin-bottom:0;
+    margin-top:5px
+}
+
+.d-flex{
+    background-color: hsl(225, 100%, 98%);
+}
+
+@media screen and (max-width:500px) {
+    .text-center{
+        width:90%;
+        border:none;
+        border-radius:30px !important;
+        overflow: hidden;
+        background-color: white;
+    }
+    
+}
